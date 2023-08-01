@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://schemas.microsoft.com/dotnet/2021/maui/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MauiAppTabs.MainPage"
+            xmlns:views="clr-namespace:MauiAppTabs">
+    
+    <TabbedPage.Children>
+        <NavigationPage Title="New Page 1">
+            <x:Arguments>
+                <views:NewPage1/>
+            </x:Arguments>
+        </NavigationPage>
+        <NavigationPage Title="New Page 2">
+            <x:Arguments>
+                <views:NewPage2 />
+            </x:Arguments>
+        </NavigationPage>
+        <NavigationPage Title="New Page 3">
+            <x:Arguments>
+                <views:NewPage3 />
+            </x:Arguments>
+        </NavigationPage>
+        <NavigationPage Title="New Page 4">
+            <x:Arguments>
+                <views:NewPage4 />
+            </x:Arguments>
+        </NavigationPage>
+        <NavigationPage Title="New Page 5">
+            <x:Arguments>
+                <views:NewPage5 />
+            </x:Arguments>
+        </NavigationPage>
+        <NavigationPage Title="New Page 6">
+            <x:Arguments>
+                <views:NewPage6 />
+            </x:Arguments>
+        </NavigationPage>
+        <NavigationPage Title="New Page 7">
+            <x:Arguments>
+                <views:NewPage7 />
+            </x:Arguments>
+        </NavigationPage>
+        <NavigationPage Title="New Page 8">
+            <x:Arguments>
+                <views:NewPage8 />
+            </x:Arguments>
+        </NavigationPage>
+        <NavigationPage Title="New Page 9">
+            <x:Arguments>
+                <views:NewPage9 />
+            </x:Arguments>
+        </NavigationPage>
+        <NavigationPage Title="New Page 10">
+            <x:Arguments>
+                <views:NewPage10 />
+            </x:Arguments>
+        </NavigationPage>
+    </TabbedPage.Children>
+</TabbedPage>
